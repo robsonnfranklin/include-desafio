@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+body {
+    margin: 0;
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+.logo {
+    font-family:'Teko', sans-serif;
+}
+
+.linha {
+    padding-top: 20px;
+}
+
+.menu{
+    background-color: #C1DBB3;
+    height: 100vh;
+    width: 200px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    right: 0;
+}
+
+span{
+    color: #283618;
+    font-size: 35px;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+#inicio, #biografia, #curiosidades, #episodios, #playlist {
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 25%;
+    filter: brightness(100%);
+    color: #fff;
+    padding-right: 300px; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+#inicio {
+    background-image: url(./img/home.avif);
+}
+
+#biografia {
+    background-image: linear-gradient(#000000a2, #000000a2), url(https://images.entertainment.ie/uploads/2021/05/26145602/Rachel-Green-Friends-Jennifer-Aniston-2.jpg?w=1280&h=768&q=high);
+}
+
+#curiosidades{
+    background-image: linear-gradient(#000000a2, #000000a2), url(https://static.independent.co.uk/2021/05/27/06/25110134-30f9d949-d2a8-40e9-81aa-8f212f25656a.jpg?quality=75&width=640&auto=webp);
+}
+#episodios {
+    background-image:linear-gradient(#000000a2, #000000a2), url(https://static.independent.co.uk/2021/05/27/06/25110132-910a53a5-73b5-47b6-ac73-9741c69d5744.jpg?quality=75&width=640&auto=webp);
+}
+#playlist {
+    background-color: #283618;
+}
+
+footer {
+    text-align: center;
+}
